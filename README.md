@@ -13,7 +13,7 @@ Antes de comenzar, asegúrate de tener instalados los siguientes programas en tu
 - Instrucciones de Uso
 1. Compilación del Analizador Léxico
 Para compilar el analizador léxico, simplemente ejecuta el siguiente comando en el directorio donde se encuentra el archivo Makefile:
-make
+**make**
 
 Esto ejecutará los siguientes pasos automáticamente:
 
@@ -22,5 +22,5 @@ gcc -o lex_analyzer lex.yy.c -lfl: Compilará el archivo generado y creará un e
 
 2. Ejecución del Analizador Léxico
 Una vez que el analizador ha sido compilado, puedes ejecutarlo sobre un archivo de código fuente en el lenguaje AC. Por ejemplo, si tienes un archivo example.ac, usa el siguiente comando:
-./lex_analyzer example.ac
+**./lex_analyzer example.ac**
 
